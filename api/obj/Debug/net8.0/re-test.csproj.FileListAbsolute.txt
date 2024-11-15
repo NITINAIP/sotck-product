@@ -1,0 +1,7 @@
+D:\project\docker\db-postgrest\re-test\obj\Debug\net8.0\re-test.csproj.AssemblyReference.cache
+D:\project\docker\db-postgrest\re-test\obj\Debug\net8.0\re-test.GeneratedMSBuildEditorConfig.editorconfig
+D:\project\docker\db-postgrest\re-test\obj\Debug\net8.0\re-test.AssemblyInfoInputs.cache
+D:\project\docker\db-postgrest\re-test\obj\Debug\net8.0\re-test.AssemblyInfo.cs
+D:\project\docker\db-postgrest\re-test\obj\Debug\net8.0\re-test.csproj.CoreCompileInputs.cache
+D:\project\docker\db-postgrest\re-test\obj\Debug\net8.0\re-test.MvcApplicationPartsAssemblyInfo.cs
+D:\project\docker\db-postgrest\re-test\obj\Debug\net8.0\re-test.MvcApplicationPartsAssemblyInfo.cache
