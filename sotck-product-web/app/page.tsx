@@ -37,7 +37,6 @@ export default function Home() {
     let result = [] as ProductT[];
     if (cart[rowInDex].productAmount! - 1 < 0) {
       return;
-      // result = cart.filter((_) => _.productId !== p.productId);
     } else {
       cart[rowInDex].productAmount = cart[rowInDex].productAmount! - 1;
       result = cart;
