@@ -44,11 +44,13 @@ export default function Home() {
     setCart((pre) => [...result]);
   };
   const onCheckOut = async () => {
-    confirm(`คุณแน่ใจใช่หรือไม่`);
+    const isconfirm = confirm(`คุณแน่ใจใช่หรือไม่`);
     try {
-      const checkOut = await DataServices.checkOut(cart);
-      setCheckOutStatus(true);
-      setIsFetch((pre) => !pre);
+      if (isconfirm) {
+        const checkOut = await DataServices.checkOut(cart);
+        setCheckOutStatus(true);
+        setIsFetch((pre) => !pre);
+      }
     } catch (error) {}
   };
   const onCLear = () => {

@@ -10,11 +10,11 @@ public static class Product
                return Results.Ok(await _AppdbContext.Products.ToListAsync());
 
            }).WithName("product");
-        services.MapGet("/saveproduct", async (DBContext.entity.DBContext _AppdbContext) =>
-          {
-              return Results.Ok(await _AppdbContext.Products.ToListAsync());
+        // services.MapGet("/saveproduct", async (DBContext.entity.DBContext _AppdbContext) =>
+        //   {
+        //       return Results.Ok(await _AppdbContext.Products.ToListAsync());
 
-          }).WithName("saveproduct"); ;
+        //   }).WithName("saveproduct"); ;
 
         services.MapGet("/totalProduct", async (DBContext.entity.DBContext _AppdbContext) =>
           {
